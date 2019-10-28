@@ -15,6 +15,7 @@ if f(high)*f(low)>0
  return 
 end
 
+mid=(low+high)/2;
 i=1;
 fprintf('iterator   low            high             mid            value\n');
 while abs(f(mid))>=dif
