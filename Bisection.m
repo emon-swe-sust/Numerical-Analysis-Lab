@@ -1,7 +1,7 @@
 f = @(x) x*x*x + x*x - 1;
 low=input('lower range : '); 
 high=input('higher range : ');
-tol=input('maximum difference value : ');
+dif=input('maximum difference value : ');
 if f(low)==0
   fprintf('root is %f',low);
   return
@@ -19,7 +19,7 @@ end
 mid=(low+high)/2;
 i=1;
 fprintf('iterator   low            high             mid            value\n');
-while abs(f(mid))>=tol
+while abs(f(mid))>=dif
   mid=(low+high)/2;
   fprintf('  %d\t  %f\t%f\t%f\t%f\n',i,low,high,mid,f(mid));
   i=i+1;
