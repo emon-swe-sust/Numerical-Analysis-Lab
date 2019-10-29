@@ -1,4 +1,5 @@
-f = @(x) x*x*x + x*x - 1;
+func = input('Enter the function: ');
+f = inline(fun);
 low=input('lower range : '); 
 high=input('higher range : ');
 dif=input('maximum difference value : ');
