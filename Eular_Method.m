@@ -1,5 +1,5 @@
-f = @(x,y) -x*y^2;
-
+function value = Eular(f)
+f = inline(f);
 x0 = 0;
 xn = 2;
 y = 1;
