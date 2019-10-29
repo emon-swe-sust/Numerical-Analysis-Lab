@@ -1,3 +1,5 @@
+func = input('Enter the function: ');
+f = inline(func);
 f = @(x) x*x + sin(x) - 1;
 low = input('lower Value: ');
 high = input('Higher Value: ');
