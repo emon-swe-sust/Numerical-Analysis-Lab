@@ -1,5 +1,5 @@
 func = input('Enter the function: ');
-f = inline(fun);
+f = inline(func);
 low=input('lower range : '); 
 high=input('higher range : ');
 dif=input('maximum difference value : ');
